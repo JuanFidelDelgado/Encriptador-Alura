@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footerStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <title>Reto Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/Vector.png" alt="Logo Alura">
+    </header>
+    <main>
+        <section class="areaEntrada">
+            <textarea class="entradaTexto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="notaPie"><img src="img/Vector1.png" width="10" height="10"> Solo letras minúsculas y sin
+                acentos</div>
+            <div class="botones">
+                <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="areaSalida">
+            <textarea class="salidaTexto" id="salida" cols="30" rows="10"></textarea>
+            <button class="btnCopiar" onclick="btnCopiar()">Copiar</button>
+        </section>
+    </main>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <img class="foto" src="img/Foto perfil.jpg" alt="Logo Alura">
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE MÍ</h2>
+                <p>Desarrollador frontend</p>
+                <p>Tecnólogo en análisis y desarrollo de sistemas de información</p>
+                <p style="font-size: 14px;">Servicio Nacional de Aprendizaje - SENA</p>
+            </div>
+            <div class="box">
+                <h2>SÍGUEME</h2>
+                <div class="red-social">
+                    <a href="https://github.com/JuanFidelDelgado" class="fa fa-github" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/juan-delgado-desarrollador/" class="fa fa-linkedin"
+                        target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 Juan Delgado - Desarrollador - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
