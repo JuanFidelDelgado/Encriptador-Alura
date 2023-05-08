@@ -109,7 +109,7 @@ main {
 
 .salidaTexto {
     background: #ffffff;
-    background-image: url("../img/Muñeco.png");
+    background-image: url("Muñeco.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
